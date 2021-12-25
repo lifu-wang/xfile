@@ -3,8 +3,9 @@
 
 void check_xmas(int month, int day) 
 {
-	if (month == 12 && day == 25) 
+	if (month == 12 && day == 25) {
 		printf("Merry X'mas!!!\n");
+	}
 	else 
 		printf("%d/%d is not Xmas yet\n", month, day);
 	return;
